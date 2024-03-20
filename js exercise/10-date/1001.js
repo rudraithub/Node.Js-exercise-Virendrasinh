@@ -1,0 +1,18 @@
+//1001 - write a program to get a Date and time of today, get day, get year, get month and get hours.
+
+let time = new Date()
+console.log(time)
+let date = Date.now()
+console.log(date)
+let day = time.getDate()
+console.log(day)
+let hour = time.getHours()
+console.log(hour)
+let minute = time.getMinutes()
+console.log(minute)
+let  millisecond = time.getMilliseconds()
+console.log(millisecond)
+let month =time.getMonth()
+console.log(month)
+let year = time.getFullYear()
+console.log(year)
